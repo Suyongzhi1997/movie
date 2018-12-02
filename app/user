@@ -1,0 +1,46 @@
+insert into user(name,pwd,email,phone,info,face,uuid,addtime) values('猴','1239','1239@123.com','138888889','猴','1f405.png','d32a72bdac524578b7e4f6dfc8394fd1',now());
+insert into user(name,pwd,email,phone,info,face,uuid,addtime) values('鸡','1240','1240@123.com','138888890','鸡','1f406.png','d32a72bdac524678b7e4f6dfc8394fd1',now());
+insert into user(name,pwd,email,phone,info,face,uuid,addtime) values('狗','1241','1241@123.com','138888891','狗','1f407.png','d32a72bdac524778b7e4f6dfc8394fd1',now());
+insert into user(name,pwd,email,phone,info,face,uuid,addtime) values('猪','1242','1242@123.com','138888892','猪','1f408.png','d32a72bdac524878b7e4f6dfc8394fd1',now());
+insert into user(name,pwd,email,phone,info,face,uuid,addtime) values('牛','1243','1243@123.com','138888893','牛','1f409.png','d32a72bdac524978b7e4f6dfc8394fd1',now());
+insert into user(name,pwd,email,phone,info,face,uuid,addtime) values('羊','1244','1244@123.com','138888894','羊','1f410.png','d32a72bdac525078b7e4f6dfc8394fd1',now());
+insert into user(name,pwd,email,phone,info,face,uuid,addtime) values('蛇','1245','1245@123.com','138888895','蛇','1f411.png','d32a72bdac525178b7e4f6dfc8394fd1',now());
+insert into user(name,pwd,email,phone,info,face,uuid,addtime) values('龙','1246','1246@123.com','138888896','龙','1f412.png','d32a72bdac525278b7e4f6dfc8394fd1',now());
+insert into user(name,pwd,email,phone,info,face,uuid,addtime) values('鼠','1247','1247@123.com','138888897','鼠','1f413.png','d32a72bdac525378b7e4f6dfc8394fd1',now());
+insert into user(name,pwd,email,phone,info,face,uuid,addtime) values('虎','1248','1248@123.com','138888898','虎','1f414.png','d32a72bdac525478b7e4f6dfc8394fd1',now());
+insert into user(name,pwd,email,phone,info,face,uuid,addtime) values('马','1249','1249@123.com','138888899','马','1f415.png','d32a72bdac525578b7e4f6dfc8394fd1',now());
+insert into user(name,pwd,email,phone,info,face,uuid,addtime) values('兔','1250','1250@123.com','138888801','兔','1f416.png','d32a72bdac525678b7e4f6dfc8394fd1',now());
+
+update user set face='01.jpg' where id='36';
+
+alter table user auto_increment=1;
+/*评论*/
+insert into comment(movie_id,user_id,content,addtime) values (4,29,"好看",now());
+insert into comment(movie_id,user_id,content,addtime) values (5,31,"不错",now());
+insert into comment(movie_id,user_id,content,addtime) values (7,32,"经典",now());
+insert into comment(movie_id,user_id,content,addtime) values (8,33,"给力",now());
+insert into comment(movie_id,user_id,content,addtime) values (8,34,"难看",now());
+insert into comment(movie_id,user_id,content,addtime) values (8,35,"无聊",now());
+insert into comment(movie_id,user_id,content,addtime) values (8,36,"乏味",now());
+insert into comment(movie_id,user_id,content,addtime) values (8,25,"无感",now());
+
+alter table comment auto_increment=1;
+
+/*收藏*/
+insert into moviecol(movie_id,user_id,addtime) values (4,29,now());
+insert into moviecol(movie_id,user_id,addtime) values (5,31,now());
+insert into moviecol(movie_id,user_id,addtime) values (7,32,now());
+insert into moviecol(movie_id,user_id,addtime) values (8,33,now());
+insert into moviecol(movie_id,user_id,addtime) values (8,34,now());
+
+alter table moviecol auto_increment=1;
+
+/*会员登陆日志*/
+
+insert into userlog(user_id,ip,addtime) values (25,"127.0.0.2",now());
+insert into userlog(user_id,ip,addtime) values (26,"127.0.0.3",now());
+insert into userlog(user_id,ip,addtime) values (27,"127.0.0.4",now());
+insert into userlog(user_id,ip,addtime) values (28,"127.0.0.5",now());
+insert into userlog(user_id,ip,addtime) values (29,"127.0.0.6",now());
+insert into userlog(user_id,ip,addtime) values (30,"127.0.0.7",now());
+insert into userlog(user_id,ip,addtime) values (31,"127.0.0.8",now());
