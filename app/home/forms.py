@@ -1,6 +1,6 @@
 # coding:utf8
 from flask_wtf import FlaskForm
-from wtforms.fields import StringField, PasswordField, SubmitField,FileField,TextAreaField
+from wtforms.fields import StringField, PasswordField, SubmitField, FileField, TextAreaField
 from wtforms.validators import DataRequired, EqualTo, Email, Regexp, ValidationError
 from app.models import User
 
@@ -122,7 +122,8 @@ class LoginForm(FlaskForm):
         }
     )
 
-#会员资料修改表单
+
+# 会员资料修改表单
 class UserdetailForm(FlaskForm):
     name = StringField(
         label="昵称",
@@ -173,8 +174,8 @@ class UserdetailForm(FlaskForm):
         ],
         description="简介",
         render_kw={
-            "class":"form-control",
-            "rows":10
+            "class": "form-control",
+            "rows": 10
         }
     )
     submit = SubmitField(
@@ -183,6 +184,7 @@ class UserdetailForm(FlaskForm):
             "class": "btn btn-success",
         }
     )
+
 
 class PwdForm(FlaskForm):
     old_pwd = PasswordField(
@@ -212,5 +214,27 @@ class PwdForm(FlaskForm):
         "修改密码",
         render_kw={
             "class": "btn btn-success",
+        }
+    )
+
+
+# 电影评论表单
+class CommentForm(FlaskForm):
+    content = TextAreaField(
+        label="内容",
+        validators=[
+            DataRequired("请输入内容!")
+        ],
+        description="内容",
+        render_kw={
+            "id": "input_content",
+            "style":"width: 726px; height: 87px;"
+        }
+    )
+    submit = SubmitField(
+        "提交评论",
+        render_kw={
+            "class": "btn btn-success",
+            "id": "btn-sub"
         }
     )
