@@ -124,7 +124,7 @@
                         </div>
                     {% endif %}
                     <ol class="breadcrumb" style="margin-top:6px;">
-                        <li>全部评论(5)</li>
+                        <li>全部评论({{ movie.commentnum }})</li>
                     </ol>
                     {% if "user" in session %}
                         {% for msg in get_flashed_messages(category_filter=["err"]) %}
@@ -149,20 +149,27 @@
                             {{ form.submit }}
                             <a class="btn btn-danger" id="btn-col"><span class="glyphicon glyphicon-heart"></span>&nbsp;收藏电影</a>
                         </form>
+                        <div class="col-md-12">
+                            <span style="color: green;" id="show_col_msg"></span>
+                        </div>
+                        <div class="clearfix"></div>
                     {% endif %}
                     <ul class="commentList">
                         {% for v in page_data.items %}
                             <li class="item cl">
                                 <a>
                                     <i class="avatar size-L radius">
-                                        <img alt="50x50" src="{{ url_for('static',filename='uploads/users/'+v.user.face) }}" class="img-circle"
+                                        <img alt="50x50"
+                                             src="{{ url_for('static',filename='uploads/users/'+v.user.face) }}"
+                                             class="img-circle"
                                              style="border:1px solid #abcdef;width: 50px;">
                                     </i>
                                 </a>
                                 <div class="comment-main">
                                     <header class="comment-header">
                                         <div class="comment-meta">
-                                            <a class="comment-author" href="{{ url_for('home.user') }}">{{ v.user.name }}</a>
+                                            <a class="comment-author"
+                                               href="{{ url_for('home.user') }}">{{ v.user.name }}</a>
                                             评论于
                                             <time title="{{ v.addtime }}" datetime="{{ v.addtime }}">{{ v.addtime }}
                                             </time>
@@ -176,7 +183,7 @@
                         {% endfor %}
                     </ul>
                     <div class="col-md-12 text-center">
-                          {{ pg.page(page_data,'home.play',movie.id) }}
+                        {{ pg.page(page_data,'home.play',movie.id) }}
                     </div>
                 </div>
             </div>
@@ -239,6 +246,29 @@
         $(document).ready(function () {
             $("img.lazy").lazyload({
                 effect: "fadeIn"
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#btn-col").click(function () {
+                var mid = {{ movie.id }};
+                var uid = {{ session['user_id'] }};
+                $.ajax({
+                    url: "{{ url_for('home.moviecol_add') }}",
+                    type: "GET",
+                    data: "mid=" + mid + "&uid=" + uid,
+                    dataType: "json",
+                    success: function (res) {
+                        if (res.ok == 1) {
+                            $("#show_col_msg").empty();
+                            $("#show_col_msg").append("收藏成功!");
+                        } else {
+                            $("#show_col_msg").empty();
+                            $("#show_col_msg").append("已经收藏!");
+                        }
+                    }
+                })
             });
         });
     </script>
