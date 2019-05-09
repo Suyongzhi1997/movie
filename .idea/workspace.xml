@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d187d6f-7143-49ec-a63d-fc23ecf98b5a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/templates/ui/s_page.html" afterDir="false" />
+    <list default="true" id="1d187d6f-7143-49ec-a63d-fc23ecf98b5a" name="Default" comment="删除一些没用的文件">
+      <change beforePath="$PROJECT_DIR$/.idea/movie2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/movie2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/home/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/admin/comment_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/admin/comment_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/admin/user_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/admin/user_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/admin/user_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/admin/user_view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/home/comments.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/home/comments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/home/play.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/home/play.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/home/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/home/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/anim/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/anim/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/anim/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/anim/main_banner/big0020150102211033.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/anim/main_banner/big0120150101183428.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/anim/main_banner/big0320150101183351.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/anim/main_banner/big0420150101224343.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/anim/main_banner/big0720150102210934.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/tpl/3-admin/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/tpl/3-admin/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/tpl/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/home/animation.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/home/animation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
     </list>
+    <ignored path="E:\Flask\movie2\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +26,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/movie2$manage.coverage" NAME="manage Coverage Results" MODIFIED="1543893164595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/movie2$manage.coverage" NAME="manage Coverage Results" MODIFIED="1557363469052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/movie2$models.coverage" NAME="models Coverage Results" MODIFIED="1542809862382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/movie2$movie2.coverage" NAME="movie2 Coverage Results" MODIFIED="1542803754453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -39,119 +45,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="comments.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/home/comments.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="30" column="83" lean-forward="true" selection-start-line="30" selection-start-column="83" selection-end-line="30" selection-end-column="83" />
-              <folding>
-                <element signature="e#1590#1635#0#HTML" expanded="true" />
-                <element signature="e#1967#2012#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/admin/user_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="61" column="56" lean-forward="true" selection-start-line="61" selection-start-column="56" selection-end-line="61" selection-end-column="56" />
-              <folding>
-                <element signature="e#3156#3176#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comment_list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/admin/comment_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="45" column="67" lean-forward="true" selection-start-line="45" selection-start-column="67" selection-end-line="45" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_view.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/admin/user_view.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="55" column="97" lean-forward="true" selection-start-line="55" selection-start-column="97" selection-end-line="55" selection-end-column="97" />
-              <folding>
-                <element signature="e#2109#2130#0#HTML" expanded="true" />
-                <element signature="e#2324#2345#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="s_page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/ui/s_page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="20" column="89" selection-start-line="20" selection-start-column="89" selection-end-line="20" selection-end-column="89" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/home/search.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/home/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="301" column="23" selection-start-line="301" selection-start-column="23" selection-end-line="301" selection-end-column="23" />
-              <folding>
-                <element signature="e#14#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home_page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/ui/home_page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/home/menu.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="15" column="69" lean-forward="true" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="play.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/templates/home/play.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="39" column="79" lean-forward="true" selection-start-line="39" selection-start-column="79" selection-end-line="39" selection-end-column="79" />
-              <folding>
-                <element signature="e#1907#1945#0#HTML" expanded="true" />
-                <element signature="e#6727#6753#0#HTML" expanded="true" />
-                <element signature="e#8204#8225#0#HTML" expanded="true" />
-                <element signature="e#8933#8978#0#HTML" expanded="true" />
-                <element signature="e#9331#9376#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -172,14 +66,13 @@
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/app/admin/views.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/app/home/views.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/app/models.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/app/home/views.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/app/admin/views.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/app/templates/admin/preview_add.html" />
         <option value="$PROJECT_DIR$/app/templates/admin/preview_list.html" />
         <option value="$PROJECT_DIR$/app/templates/admin/preview_edit.html" />
@@ -213,7 +106,6 @@
         <option value="$PROJECT_DIR$/app/templates/home/user.html" />
         <option value="$PROJECT_DIR$/app/__init__.py" />
         <option value="$PROJECT_DIR$/app/templates/home/pwd.html" />
-        <option value="$PROJECT_DIR$/app/templates/home/animation.html" />
         <option value="$PROJECT_DIR$/app/templates/home/404.html" />
         <option value="$PROJECT_DIR$/app/templates/home/home.html" />
         <option value="$PROJECT_DIR$/app/templates/home/layout.html" />
@@ -230,6 +122,8 @@
         <option value="$PROJECT_DIR$/app/templates/home/search.html" />
         <option value="$PROJECT_DIR$/app/home/views.py" />
         <option value="$PROJECT_DIR$/app/templates/home/play.html" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/app/templates/home/animation.html" />
       </list>
     </option>
   </component>
@@ -240,18 +134,19 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-276" />
-    <option name="y" value="77" />
-    <option name="width" value="1452" />
-    <option name="height" value="867" />
+    <option name="x" value="555" />
+    <option name="y" value="96" />
+    <option name="width" value="1294" />
+    <option name="height" value="877" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -264,63 +159,35 @@
               <item name="movie2" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="movie2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="movie2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movie2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="movie2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movie2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="movie2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movie2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="movie2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movie2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="movie2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movie2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="movie2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movie2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="movie2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="461" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="461" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="461" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="461" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="461" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="461" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="461" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="461" />
     <property name="SearchEverywhereHistoryKey" value="pre&#9;FILE&#9;file://E:/Flask/movie2/app/templates/admin/preview_add.html&#10;is_s&#9;null&#9;null&#10;admin_i&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="H:/博客源代码和开发环境/blog_project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/static" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -438,27 +305,41 @@
       <option name="project" value="LOCAL" />
       <updated>1543894723751</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="代码优化及BUG处理">
+      <created>1543902836360</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543902836360</updated>
+    </task>
+    <task id="LOCAL-00004" summary="删除一些没用的文件">
+      <created>1543903455456</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1543903455456</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3293348" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3293348" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32128513" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32901832" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32897604" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32388222" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32715377" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11567164" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17120343" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -503,7 +384,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="电影评论-统计" />
     <MESSAGE value="电影收藏" />
-    <option name="LAST_COMMIT_MESSAGE" value="电影收藏" />
+    <MESSAGE value="代码优化及BUG处理" />
+    <MESSAGE value="删除一些没用的文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除一些没用的文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -511,27 +394,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/templates/admin/preview_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/admin/movie_edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="48" column="82" selection-start-line="48" selection-start-column="82" selection-end-line="48" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/admin/moviecol_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/admin/pwd.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
@@ -637,20 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/user">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/admin/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-60">
@@ -700,24 +548,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="778">
-          <caret line="249" column="5" lean-forward="true" selection-start-line="249" selection-start-column="5" selection-end-line="249" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/admin/preview_add.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="43" column="112" selection-start-line="43" selection-start-column="112" selection-end-line="43" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/home/animation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="23" column="93" selection-start-line="23" selection-start-column="93" selection-end-line="23" selection-end-column="93" />
         </state>
       </provider>
     </entry>
@@ -727,26 +561,6 @@
           <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="91" column="50" lean-forward="true" selection-start-line="91" selection-start-column="50" selection-end-line="91" selection-end-column="50" />
-          <folding>
-            <element signature="e#3565#3571#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/home/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1633">
-          <caret line="84" column="60" lean-forward="true" selection-start-line="84" selection-start-column="60" selection-end-line="84" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/home/forms.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -762,24 +576,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="423" column="38" lean-forward="true" selection-start-line="423" selection-start-column="38" selection-end-line="423" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/ui/comment_page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/home/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="105" column="57" lean-forward="true" selection-start-line="105" selection-start-column="57" selection-end-line="105" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -790,31 +590,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/home/moviecol.html">
+    <entry file="file://$PROJECT_DIR$/app/templates/ui/home_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="23" column="81" lean-forward="true" selection-start-line="23" selection-start-column="81" selection-end-line="23" selection-end-column="81" />
-          <folding>
-            <element signature="e#1411#1441#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="540">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/home/menu.html">
+    <entry file="file://$PROJECT_DIR$/app/templates/home/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="69" lean-forward="true" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+        <state relative-caret-position="30">
+          <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/home/comments.html">
+    <entry file="file://$PROJECT_DIR$/app/templates/ui/s_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="30" column="83" lean-forward="true" selection-start-line="30" selection-start-column="83" selection-end-line="30" selection-end-column="83" />
-          <folding>
-            <element signature="e#1590#1635#0#HTML" expanded="true" />
-            <element signature="e#1967#2012#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="600">
+          <caret line="20" column="89" selection-start-line="20" selection-start-column="89" selection-end-line="20" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/admin/user_view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="55" column="97" lean-forward="true" selection-start-line="55" selection-start-column="97" selection-end-line="55" selection-end-column="97" />
         </state>
       </provider>
     </entry>
@@ -829,65 +629,119 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="524">
           <caret line="61" column="56" lean-forward="true" selection-start-line="61" selection-start-column="56" selection-end-line="61" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1941">
+          <caret line="249" column="5" lean-forward="true" selection-start-line="249" selection-start-column="5" selection-end-line="249" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/user">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/anmi/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/anmi/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#3156#3176#0#HTML" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/admin/user_view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="55" column="97" lean-forward="true" selection-start-line="55" selection-start-column="97" selection-end-line="55" selection-end-column="97" />
-          <folding>
-            <element signature="e#2109#2130#0#HTML" expanded="true" />
-            <element signature="e#2324#2345#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/ui/home_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/ui/s_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="20" column="89" selection-start-line="20" selection-start-column="89" selection-end-line="20" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/home/search.html">
+    <entry file="file://$PROJECT_DIR$/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/home/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
+        <state relative-caret-position="2655">
           <caret line="301" column="23" selection-start-line="301" selection-start-column="23" selection-end-line="301" selection-end-column="23" />
-          <folding>
-            <element signature="e#14#32#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/home/comments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="30" column="83" lean-forward="true" selection-start-line="30" selection-start-column="83" selection-end-line="30" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/home/moviecol.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="23" column="81" lean-forward="true" selection-start-line="23" selection-start-column="81" selection-end-line="23" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/home/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="69" lean-forward="true" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/home/play.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
+        <state relative-caret-position="1053">
           <caret line="39" column="79" lean-forward="true" selection-start-line="39" selection-start-column="79" selection-end-line="39" selection-end-column="79" />
-          <folding>
-            <element signature="e#1907#1945#0#HTML" expanded="true" />
-            <element signature="e#6727#6753#0#HTML" expanded="true" />
-            <element signature="e#8204#8225#0#HTML" expanded="true" />
-            <element signature="e#8933#8978#0#HTML" expanded="true" />
-            <element signature="e#9331#9376#0#HTML" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/home/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="84" column="60" lean-forward="true" selection-start-line="84" selection-start-column="60" selection-end-line="84" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2457">
+          <caret line="91" column="50" selection-start-line="91" selection-start-column="50" selection-end-line="91" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/home/animation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="42" column="99" lean-forward="true" selection-start-line="42" selection-start-column="99" selection-end-line="42" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
